@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 5</title>
+</head>
+<body>
+    <script>
+        function longword(str){
+            str = str.split(" ") 
+    return str.sort((a, b) => b.length - a.length)[0] 
+        }
+        let str =longword("hi everyone this is Chandra Sudiksha");
+        document.write("hi everyone this is Chandra Sudiksha<br>")
+        document.write("The longest word in the given string is - "+str);
+    </script>
+</body>
+</html>
